@@ -24,7 +24,7 @@ const Footer = () => {
                 const {id, href, icon} = link
                 return (
                     <li key={id}>
-                        <a href={href} target="_blank" className="footer-icon">
+                        <a href={href} target="_blank" rel="noreferrer" className="footer-icon">
                             <i className={icon}></i>
                         </a>
                     </li>
@@ -32,7 +32,7 @@ const Footer = () => {
         })}
 
       </ul>
-      
+
       <p className="copyright">
         copyright &copy; Backroads travel tours company
         <span id="date"></span> all rights reserved
